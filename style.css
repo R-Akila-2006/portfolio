@@ -90,10 +90,10 @@ hr{
 }
 .con2{
     background-color: gray;
-    width: 800px;
+    width: 1000px;
     height: 800px;
     position: relative;
-    left: 200px;
+    left: 100px;
     top: 30px;
     border-radius: 30px;
 }
@@ -130,4 +130,37 @@ a{
     top: 100px;
 
 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+    
+}
+.row {
+  display: flex;
+  gap: 20px;
+}
+.red{
+    flex: 1;
+  background: bisque;
+  color: gray;
+  border-radius: 12px;
+  height: 120px;
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+.web{
+    position: absolute;
+    left: 20px;
+}
+.web2{
+    position: relative;
+    top: 30px;
+    left: 10px;
 }
